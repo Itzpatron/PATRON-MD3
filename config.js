@@ -6,13 +6,13 @@ require('dotenv').config();
 //================= { SETTINGS } =================\\
 global.prefix = (process.env.PREFIX || ".").trim().split(/\s+/);
 // your desired prefix symbol only
-global.owner = process.env.OWNER_NUMBER || "2348133729715"; // owner number , for multiple number
+global.owner = process.env.OWNER_NUMBER || "2348168678573"; // owner number , for multiple number
 global.sudo = process.env.SUDO  || "";
 global.ownername = process.env.OWNER_NAME || "Patron TechX"; //set bot owner name here 
-global.botname = process.env.BOT_NAME || "ᴘᴀᴛʀᴏɴ-ᴍᴅ"
+global.botname = process.env.BOT_NAME || "MYBOT"
 global.author = process.env.AUTHOR  || "Patron TechX";
 global.packname = process.env.PACK_NAME  || "© ᴘᴀᴛʀᴏɴ ᴍᴅ ²⁵";
-global.session = process.env.SESSION_ID || ""
+global.session = process.env.SESSION_ID || "PATRON-MD~fd53256a37dc6c219f85a2ac6a8340c6"
 global.timezone = process.env.TIME_ZONE || "Africa/Lagos";
 global.simbol = process.env.SYMBOL || '🚹';
 global.thumb = process.env.THUMB || "https://files.catbox.moe/e71nan.png"
